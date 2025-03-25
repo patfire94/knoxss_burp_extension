@@ -15,7 +15,7 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
         callbacks.registerContextMenuFactory(self)
         print("[+] KNOXSS extension loaded")
 
-        self.knoxss_api_key = "d36a852e-8e5e-43be-8b58-213346d8f1b2"
+        self.knoxss_api_key = "your api key"
         self.discord_webhook = "https://discord.com/api/webhooks/1303759274983292970/lkCKZN_sgP5oOmkI9BbmD2sdDgwFpPg1W0PhpfBucfM0BgIceMgIEjADjcPRy8aokygQ"
 
     def createMenuItems(self, invocation):
